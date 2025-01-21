@@ -42,7 +42,7 @@ steps:
         '.',
       ]
 images:
-  - 'gcr.io/$PROJECT_ID/img-studio:latest'
+  - 'europe-west9-docker.pkg.dev/celio-imagegen/img-studio:latest'
 
 options:
   logging: CLOUD_LOGGING_ONLY
